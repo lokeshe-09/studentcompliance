@@ -1,0 +1,7 @@
+{
+  "name": "StudentGrievance - Issue Tracking System",
+  "description": "A premium, end-to-center student complaint and issue tracking system with separate student and admin dashboards, real-time status tracking, and analytics.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
