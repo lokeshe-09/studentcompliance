@@ -57,10 +57,19 @@ const App: React.FC = () => {
         </Routes>
       </main>
       
-      {/* Premium Footer */}
-      <footer className="py-8 bg-white border-t border-slate-200">
-        <div className="container mx-auto px-6 text-center text-slate-500 text-sm">
-          &copy; {new Date().getFullYear()} StudentGrievance. Built for Modern Campus Efficiency.
+      {/* Minimal Footer */}
+      <footer className="py-6 bg-white border-t border-slate-100 mt-auto">
+        <div className="mx-auto max-w-[1600px] px-12 flex flex-row items-center justify-between">
+          <div className="flex items-center gap-4">
+            <div className="w-8 h-8 bg-slate-950 rounded-lg flex items-center justify-center text-white font-black text-[10px]">SN</div>
+            <div className="flex flex-col">
+              <span className="text-slate-900 text-[10px] font-black uppercase tracking-[0.2em]">SNIST</span>
+              <span className="text-slate-400 text-[8px] font-bold uppercase tracking-[0.1em]">Sreenidhi Institute of Science and Technology</span>
+            </div>
+          </div>
+          <div className="text-slate-400 text-[9px] font-black uppercase tracking-[0.4em]">
+            &copy; {new Date().getFullYear()} Central Redressal Mechanism
+          </div>
         </div>
       </footer>
     </div>
